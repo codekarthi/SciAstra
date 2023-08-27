@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100px;
+    display: flex;
+    padding: 9px 4px;
+}
+.header div{
+    padding: 5px;
+    margin: 27px;
+}
+
+.header div img{
+    border-radius: 41px;
+    height: 79px;
+}
+
+.header div a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: x-large;
+}
+.active{
+    color: blueviolet;
+}
+.header div a:hover{
+    color: blueviolet;
+}
+.container1{
+    margin-top:20px ;
+    background-image: url("stableWorlds.jpg" );
+    color: blueviolet;
+    font-family: cursive;
+    font-size: xx-large;
+    padding: 100px 50px;
+}
+.container2{
+    display: flex;
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.container2 div{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.container2 .x:hover {
+    color:blueviolet ;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.container2 .univ3{
+    margin-left: 50px;
+    
+}
+.container2 .univ-img {
+    height: 100px;
+    width: 100px;
+}
+.container2 .univ-img img{    
+    width: 80%;
+}
+.container2 div div{
+    margin-bottom: 10px;
+}
+.container2 .x{
+    align-items: center;
+    width: 200px;
+    margin-right: 50px;
+}
+.container2 .Y{
+    padding-top: 100px;
+}
+.container3{
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    color: blueviolet;
+}
+.container2 .x  .prof_img img{
+    border-radius: 200px;
+}
+.container2 .y .prof_img img{
+    border-radius: 200px;
+}
+.container2 .y{
+    align-items: center;
+    width: 200px;
+    margin-right: 50px;
+}
+.container2 .y a{
+    text-decoration: none;
+    color: black;
+}
+.container2 .y a:hover{
+   font-weight: 800;
+    color:blueviolet;
+}
+
